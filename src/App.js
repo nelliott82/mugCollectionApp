@@ -1,5 +1,6 @@
 import React from 'react';
 import nikkosMugTitle from './nikkosmugtitle.png';
+import Mugs from './Mugs.js'
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <p style={{width: '50%'}}>
           Click on a mug below to learn more about it. Once you've decided which mug you want to use, click "Select" and then mug it up!
         </p>
-        
+        <Mugs />
       </header>
     </div>
   );

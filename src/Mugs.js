@@ -1,19 +1,37 @@
 import React from 'react';
-import nikkosMugTitle from './nikkosmugtitle.png';
+import simbaMug from './simbaMug.jpeg';
+import simbaMugVid from './simbaMugVid.mp4';
 import './App.css';
 
-function App() {
+function lightbox_open() {
+  var lightBoxVideo = document.getElementById('simbaMugVid');
+  window.scrollTo(0, 0);
+  document.getElementById('light').style.display = 'block';
+  document.getElementById('fade').style.display = 'block';
+  lightBoxVideo.play();
+}
+
+// function lightbox_close() {
+//   var lightBoxVideo = document.getElementById('VisaChipCardVideo');
+//   document.getElementById('light').style.display = 'none';
+//   document.getElementById('fade').style.display = 'none';
+//   lightBoxVideo.pause();
+// }
+
+function Mugs() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={nikkosMugTitle} className="App-logo" alt="logo" />
-        <p style={{width: '50%'}}>
-          Click on a mug below to learn more about it. Once you've decided which mug you want to use, click "Select" and then mug it up!
-        </p>
-        
-      </header>
+    <div>
+      <img src={simbaMug} className="mug" alt="logo" />
+      <button type="button" onClick={lightbox_open}>
+        Select Mug
+      </button>
+      <div id="light">
+        {/* <a className="boxclose" id="boxclose" onClick={lightbox_close} /> */}
+        <video id="simbaMugVid" src={simbaMugVid} controls />
+      </div>
+      <div id="fade" onClick="lightbox_close();"></div>
     </div>
   );
 }
 
-export default App;
+export default Mugs;
