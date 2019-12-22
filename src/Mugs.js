@@ -5,14 +5,14 @@ import './App.css';
 
 
 function lightbox_close() {
-  var lightBoxVideo = document.getElementById('mugVid');
+  var lightBoxVideo = document.getElementById('simbaMugVid');
   document.getElementById('light').style.display = 'none';
   document.getElementById('fade').style.display = 'none';
   lightBoxVideo.pause();
 }
 
 function lightbox_open() {
-  var lightBoxVideo = document.getElementById('mugVid');
+  var lightBoxVideo = document.getElementById('simbaMugVid');
   window.scrollTo(0, 0);
   document.getElementById('light').style.display = 'block';
   document.getElementById('fade').style.display = 'block';
@@ -29,7 +29,7 @@ function Mugs() {
       </button>
       <div id="light">
         {/* <a className="boxclose" id="boxclose" onClick={lightbox_close} /> */}
-        <video id="mugVid" src={simbaMugVid} controls />
+        <video id="simbaMugVid" src={simbaMugVid} controls />
       </div>
       <div id="fade" onClick="lightbox_close();"></div>
     </div>
