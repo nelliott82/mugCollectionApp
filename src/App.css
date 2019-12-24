@@ -15,7 +15,7 @@
   height: 30%;
 }
 
-#fade {
+#vidFade {
   display: none;
   position: fixed;
   top: 0%;
@@ -29,18 +29,62 @@
   filter: alpha(opacity=80);
 }
 
-#light {
+#mugFade {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+#vidLight {
   display: none;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   max-width: auto;
   max-height: auto;
-  margin-left: -300px;
-  margin-top: -180px;
   border: #FFF;
   border-style: solid;
   border-width: 5px 5px 0px 5px;
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#mugLight {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: auto;
+  max-height: auto;
+  /* border: #FFF;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px; */
+  background: #FFF;
+  z-index: 1002;
+  overflow: visible;
+}
+
+#mugButton {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: auto;
+  max-height: auto;
+  /* border: #FFF;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px; */
   background: #FFF;
   z-index: 1002;
   overflow: visible;
@@ -64,19 +108,53 @@
 /* Slide CSS */
 
 .slider-arrows {
-  position: absolute;
-  width: 100%;
   z-index: 3;
 }
+
 .slider-arrows > .arrow {
-  margin-top: 300px;
+  margin-top: 7rem;
 }
-.slider-arrows a {
-  cursor: pointer;
+
+.slider-arrows div {
   display: block;
   opacity: 0.8;
   position: absolute;
 }
+
 .slider-arrows > .arrow.right {
-  right: 0;
+  right: 0%;
+}
+
+.slider-arrows > .arrow.left {
+  left: 0%;
+}
+
+.arrowRight {
+  width: 10rem;
+  height: auto;
+}
+
+.arrowLeft {
+  width: 10rem;
+  height: auto;
+}
+
+.slider .slide {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+.slide {
+  width: 20rem;
+  height: 20rem;
+  background-size: 20rem 20rem
+}
+
+.slide:hover {
+  width: 30rem;
+  height: 30rem;
+  background-size: 30rem 30rem
 }

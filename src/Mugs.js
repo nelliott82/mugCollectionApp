@@ -10,16 +10,16 @@ import './App.css';
 
 function lightbox_close() {
   var lightBoxVideo = document.getElementById('simbaMugVid');
-  document.getElementById('light').style.display = 'none';
-  document.getElementById('fade').style.display = 'none';
+  document.getElementById('vidLight').style.display = 'none';
+  document.getElementById('vidFade').style.display = 'none';
   lightBoxVideo.pause();
 }
 
 function lightbox_open() {
   var lightBoxVideo = document.getElementById('simbaMugVid');
   window.scrollTo(0, 0);
-  document.getElementById('light').style.display = 'block';
-  document.getElementById('fade').style.display = 'block';
+  document.getElementById('vidLight').style.display = 'block';
+  document.getElementById('vidFade').style.display = 'block';
   lightBoxVideo.addEventListener('ended', lightbox_close, false);
   lightBoxVideo.play();
 }
@@ -39,10 +39,10 @@ class Mugs extends React.Component {
           <button type="button" onClick={lightbox_open}>
             Select Mug
           </button>
-          <div id="light">
+          <div id="vidLight">
             <video id="simbaMugVid" src={hauntedMansion} controls />
           </div>
-          <div id="fade"></div>
+          <div id="vidFade"></div>
         </div>
       </div>
     );

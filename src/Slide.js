@@ -1,29 +1,36 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Mugs from './Mugs.js';
 
-const Slide = ({image, width, height}) => {
-    const backgroundImage = image;
-    const styles = {
-      backgroundImage: `url(${backgroundImage})`,
-      backgroundPosition: 'center top',
-      backgroundRepeat: 'no-repeat',
-      float: 'left',
-      width: `${width}px`,
-      height: `${height}px`
-    }
-    return (
-      <div className="slide" style={styles}></div>
-    )
+function mugLightbox_close() {
+  document.getElementById('light').style.display = 'none';
+  document.getElementById('mugButton').style.display = 'none';
+  document.getElementById('fade').style.display = 'none';
 }
 
-Slide.defaultProps = {
-  width: 300,
-  height: 600
+function mugLightbox_open() {
+  document.getElementById('mugLight').style.display = 'block';
+  document.getElementById('mugButton').style.display = 'block';
+  document.getElementById('mugFade').style.display = 'block';
 }
 
-Slide.propTypes = {
-  image: PropTypes.string.isRequired,
-  width: PropTypes.number.isRequired,
-  height: PropTypes.number.isRequired
-}
+const Slide = ({ image }) => {
+  const backgroundImage = image;
+  const styles = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundPosition: 'center top',
+    backgroundRepeat: 'no-repeat',
+    float: 'left',
+  };
+
+  return (
+    <div className="slide" style={styles} onClick={mugLightbox_open}>
+      <div id="mugLight">
+        <div id="mugButton" onClick={mugLightbox_close}></div>
+        <Mugs />
+      </div>
+      <div id="mugFade"></div>
+    </div>
+  );
+};
+
 export default Slide;
