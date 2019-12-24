@@ -62,6 +62,9 @@ export default class App extends React.Component {
             return null;
           }
         })}
+        {images.map((image, index) => {
+          return <span key={index} className="dot"/>
+        })}
       </div>
     );
   }
