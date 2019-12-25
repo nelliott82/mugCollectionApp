@@ -23,7 +23,9 @@ const Slide = ({ frontImage, image }) => {
   };
 
   return (
+    <div>
     <div className="slide" style={styles} onClick={mugLightbox_open}>
+    </div>
       <div id="mugLight">
         <Mugs image={image} />
       </div>
