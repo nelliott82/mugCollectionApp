@@ -96,7 +96,7 @@
 }
 
 .slider-arrows > .arrow {
-  margin-top: 7rem;
+  margin-top: 12.5rem;
 }
 
 .slider-arrows div {
@@ -134,9 +134,9 @@
 
 .slide {
   cursor: pointer;
-  width: 20rem;
-  height: 20rem;
-  background-size: 20rem 20rem
+  width: 30rem;
+  height: 30rem;
+  background-size: 30rem 30rem
 }
 
 .slide:hover {
@@ -147,7 +147,7 @@
 }
 
 .dot {
-  /* cursor: pointer; */
+  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
