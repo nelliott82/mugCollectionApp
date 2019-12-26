@@ -66,7 +66,7 @@ export default class App extends React.Component {
   slideLeft() {
     let last = this.state.images.slice(-1);
     let rest = this.state.images.slice(0, -1);
-    let images = [last[0], ...rest];
+    let images = [...last, ...rest];
     this.setState({ images: images });
   }
 

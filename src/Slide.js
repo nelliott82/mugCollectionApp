@@ -21,7 +21,7 @@ const Slide = ({ frontImage, image }) => {
     backgroundRepeat: 'no-repeat',
     float: 'left',
   };
-
+  
   return (
     <div>
     <div className="slide" style={styles} onClick={mugLightbox_open}>

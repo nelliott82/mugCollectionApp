@@ -8,21 +8,19 @@ import React from 'react';
 // import adorableCouple from './adorableCouple.mp4';
 import './App.css';
 
-function lightbox_close(videoId) {
-  console.log(videoId)
-  var lightBoxVideo = document.getElementById(videoId);
+function lightbox_close() {
+  var lightBoxVideo = document.getElementById('videoElem');
   document.getElementById('vidLight').style.display = 'none';
   document.getElementById('vidFade').style.display = 'none';
   lightBoxVideo.pause();
 }
 
-function lightbox_open(videoId) {
-  console.log(videoId)
-  var lightBoxVideo = document.getElementById(videoId);
+function lightbox_open() {
+  var lightBoxVideo = document.getElementById('videoElem');
   window.scrollTo(0, 0);
   document.getElementById('vidLight').style.display = 'block';
   document.getElementById('vidFade').style.display = 'block';
-  lightBoxVideo.addEventListener('ended', function() { lightbox_close(videoId) }, false);
+  lightBoxVideo.addEventListener('ended', lightbox_close, false);
   lightBoxVideo.play();
 }
 
@@ -42,7 +40,7 @@ class Mugs extends React.Component {
             Select Mug
           </button>
           <div id="vidLight">
-            <video height={400} width={700} id={this.props.image.videoId} src={this.props.image.video} controls />
+            <video height={400} width={700} id="videoElem" src={this.props.image.video} controls />
           </div>
           <div id="vidFade"></div>
         </div>
