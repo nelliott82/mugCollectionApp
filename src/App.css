@@ -9,10 +9,40 @@
   max-height: auto;
 }
 
-.mug {
-  margin-top: 5rem;
-  width: 30%;
-  height: 30%;
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 0.5rem;
+}
+
+.mugImages {
+  color: black;
+  display: grid;
+  grid-template-areas:
+  'front back'
+}
+
+.mugImage {
+  width: 75%;
+  height: 75%
+}
+
+.descriptionContainer {
+  align-self: center;
+  font-size: 20px;
+  color: black;
+  padding: 0rem 1rem 1rem;
+}
+
+.mugFront {
+  grid-area: front;
+}
+.mugBack {
+  grid-area: back;
 }
 
 #vidFade {
@@ -70,20 +100,7 @@
   background: #FFF;
   z-index: 1002;
   overflow: visible;
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding-top: 2rem;
-}
-
-.App-link {
-  color: #61dafb;
+  border-radius: 5%
 }
 
 /* Slide CSS */
@@ -103,20 +120,22 @@
 }
 
 .slider-arrows > .arrow.right {
-  right: 0%;
+  right: 10%;
 }
 
 .slider-arrows > .arrow.left {
-  left: 0%;
+  left: 10%;
 }
 
 .arrowRight {
+  border-radius: 5%;
   cursor: pointer;
   width: 10rem;
   height: auto;
 }
 
 .arrowLeft {
+  border-radius: 5%;
   cursor: pointer;
   width: 10rem;
   height: auto;
@@ -130,6 +149,7 @@
 }
 
 .slide {
+  border-radius: 5%;
   /* cursor: pointer; */
   width: 30rem;
   height: 30rem;

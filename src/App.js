@@ -27,7 +27,6 @@ export default class App extends React.Component {
           frontImage: simbaMug,
           backImage: simbaMugBack,
           video: simbaMugVid,
-          videoId: 'simbaMugVid',
           title: 'Simba Face Mug',
           description:
             "'The Lion King' premiered in 1994. Originally considered the lesser of the animated projects at the time, most heavyweight animators at Disney chose instead to focus on 'Pocahontas' which would premiere the following year. However, 'The Lion King' would prove the better film financially and critically.",
@@ -36,7 +35,6 @@ export default class App extends React.Component {
           frontImage: hauntedMansionMug,
           backImage: hauntedMansionMugBack,
           video: hauntedMansion,
-          videoId: 'hauntedMansion',
           title: 'Haunted Mansion Mug',
           description:
             'Home to 999 happy haunts, The Haunted Mansion is one of the most beloved Disney rides. Opened in 1969 at Disneyland, it proved so popular, a very similar version was built at Magic Kingdom park in Walt Disney World in time for its grand opening in 1971.',
@@ -45,7 +43,6 @@ export default class App extends React.Component {
           frontImage: mickeyMinnieKissingMug,
           backImage: mickeyMinnieKissingMugBack,
           video: adorableCouple,
-          videoId: 'adorableCouple',
           title: 'Mickey and Minnie Kissing Mug',
           description:
             "Mickey and Minnie Mouse have been together in the public's eye since 1928. Whether you find their over-the-top, 'cutesy' relationship and demeanors aggravating or adorable, they are truly iconic and inseperable.",
@@ -54,10 +51,9 @@ export default class App extends React.Component {
           frontImage: billyGoatGruffMug,
           backImage: billyGoatGruffMugBack,
           video: toyStory4Sheep,
-          videoId: 'toyStory4Sheep',
           title: 'Billy, Goat, & Gruff Mug',
           description:
-            "Billy, Goat, & Gruff are Bo Peep's three sheep and best represented in Toy Story 4. Over the years they've had stickers added to their collective body, but it doesn't bother them much and they seem to like it.",
+            "Billy, Goat, & Gruff are Bo Peep's three sheep and best represented in Toy Story 4. Over the years they've had stickers added to their collective body, but it doesn't bother them much and they even seem to like it.",
         },
       ]
     };
@@ -117,7 +113,7 @@ export default class App extends React.Component {
           <img src={nikkosMugTitle} className="App-logo" alt="logo" />
           <p style={{ width: '60%' }}>
             Browse through the mugs below and click on one to learn more about it. Once you've decided
-            which mug you want to use, click "Select" and then mug it up!
+            which mug you want to use, click "Select Mug" and then mug it up!
           </p>
           <div className="slider">
             {this.renderNavigation()}

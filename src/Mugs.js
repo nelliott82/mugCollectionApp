@@ -26,25 +26,52 @@ function lightbox_open() {
 
 class Mugs extends React.Component {
   constructor(props) {
-    super(props)
-    this.state = {
-    }
+    super(props);
+    this.state = {};
   }
-  
+
   render() {
     return (
       <div>
-        <div>
-          <img src={this.props.image.frontImage} className="mug" alt="logo" />
-          <button type="button" onClick={() => lightbox_open(this.props.image.videoId)}>
-            Select Mug
-          </button>
-          <div id="vidLight">
-            <video height={400} width={700} id="videoElem" src={this.props.image.video} controls />
+        <h3 style={{ color: 'black' }}>{this.props.image.title}</h3>
+          <div className="mugImages">
+            <div className="mugFront">
+              <img
+                src={this.props.image.frontImage}
+                className="mugImage"
+                alt="logo"
+              />
+              <p>Front</p>
+            </div>
+            <div className="mugBack">
+              <img
+                src={this.props.image.backImage}
+                className="mugImage"
+                alt="logo"
+              />
+              <p>Back</p>
+            </div>
           </div>
-          <div id="vidFade"></div>
+          <div className="descriptionContainer">
+            <p>{this.props.image.description}</p>
+            <button
+              type="button"
+              onClick={() => lightbox_open(this.props.image.videoId)}
+            >
+              Select Mug
+            </button>
+            <div id="vidLight">
+              <video
+                height={400}
+                width={700}
+                id="videoElem"
+                src={this.props.image.video}
+                controls
+              />
+            </div>
+            <div id="vidFade"></div>
+          </div>
         </div>
-      </div>
     );
   }
 }
