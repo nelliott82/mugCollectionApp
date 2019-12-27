@@ -4,6 +4,8 @@ import Mugs from './Mugs.js';
 function mugLightbox_close() {
   document.getElementById('mugLight').style.display = 'none';
   document.getElementById('mugFade').style.display = 'none';
+  document.getElementById('uSureLight').style.display = 'none';
+  document.getElementById('uSureFade').style.display = 'none';
 }
 
 function mugLightbox_open() {
