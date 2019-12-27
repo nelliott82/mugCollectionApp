@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BrowserRouter as Router, Link } from 'react-router-dom';
 import nikkosMugTitle from './nikkosmugtitle.png';
 import simbaMug from './img/simbaMug.jpeg';
 import simbaMugBack from './img/simbaMugBack.jpeg';
@@ -15,6 +14,12 @@ import mickeyArrowLeft from './img/mickeyArrowLeft.jpg';
 import billyGoatGruffMug from './img/billyGoatGruffMug.jpg';
 import billyGoatGruffMugBack from './img/billyGoatGruffMugBack.png';
 import toyStory4Sheep from './video/toyStory4Sheep.mp4';
+import cafeMinnieMug from './img/cafeMinnieMug.jpeg';
+import cafeMinnieMugBack from './img/cafeMinnieMugBack.jpeg';
+import cafeMinnie from './video/cafeMinnie.mp4';
+import croissantDeTriompheMug from './img/croissantDeTriompheMug.jpeg';
+import croissantDeTriompheMugBack from './img/croissantDeTriompheMugBack.jpeg';
+import croissantDeTriomphe from './video/croissantDeTriomphe.mp4';
 import Slide from './Slide.js';
 import './App.css';
 
@@ -54,6 +59,22 @@ export default class App extends React.Component {
           title: 'Billy, Goat, & Gruff Mug',
           description:
             "Billy, Goat, & Gruff are Bo Peep's three sheep and best represented in Toy Story 4. Over the years they've had stickers added to their collective body, but it doesn't bother them much and they even seem to like it.",
+        },
+        {
+          frontImage: cafeMinnieMug,
+          backImage: cafeMinnieMugBack,
+          video: cafeMinnie,
+          title: 'Cafe Minnie Mug',
+          description:
+            "In the Mickey Mouse short 'Croissant De Triomphe,' Minnie runs Cafe Minnie in Paris, France. Everything is 'tres bien' until Minnie discovers one morning she has no croissants for her customers.",
+        },
+        {
+          frontImage: croissantDeTriompheMug,
+          backImage: croissantDeTriompheMugBack,
+          video: croissantDeTriomphe,
+          title: 'Mickey Scooter Mug',
+          description:
+            "In the Mickey Mouse short 'Croissant De Triomphe,' Mickey attempts to save the day by delivering croissants to Cafe Minnie using his trusty anthropomorphic scooter!",
         },
       ]
     };
