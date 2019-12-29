@@ -71,7 +71,7 @@ class Mugs extends React.Component {
         </div>
         <div className="descriptionContainer">
           <p>{this.props.image.description}</p>
-          <Button onClick={youSure_open}>Select Mug</Button>
+          <Button onClick={youSure_open} content="Select Mug" />
           <div id="uSureLight">
             <h2>Are you sure?</h2>
             <button type="button" onClick={lightbox_open}>
