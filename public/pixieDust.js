@@ -1,5 +1,5 @@
 var colour="gold"; // "random" can be replaced with any valid colour ie: "red"...
-var sparkles=1000;// increase of decrease for number of sparkles falling
+var pixieDustCount=1000;// increase of decrease for number of pixieDustCount falling
 
 var x=ox=400;
 var y=oy=300;
@@ -88,7 +88,7 @@ function Mouse(evnt){
 
 window.onload=function() { if (document.getElementById) {
 	var i, rats, rlef, rdow;
-	for (var i=0; i<sparkles; i++) {
+	for (var i=0; i<pixieDustCount; i++) {
 		var rats=createDiv(3, 3);
 		rats.style.visibility="hidden";
 		rats.style.zIndex="4000";
@@ -110,15 +110,15 @@ window.onload=function() { if (document.getElementById) {
 		document.body.appendChild(star[i]=rats);
 	}
 	set_width();
-	sparkle();
+	pixieDust();
 }}
 
-function sparkle() {
+function pixieDust() {
 	var c;
 	if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
 		ox=x;
 		oy=y;
-		for (c=0; c<sparkles; c++) if (!starv[c]) {
+		for (c=0; c<pixieDustCount; c++) if (!starv[c]) {
 			star[c].style.left=(starx[c]=x)+"px";
 			star[c].style.top=(stary[c]=y+1)+"px";
 			star[c].style.clip="rect(0px, 5px, 5px, 0px)";
@@ -128,11 +128,11 @@ function sparkle() {
 			break;
 		}
 	}
-	for (c=0; c<sparkles; c++) {
+	for (c=0; c<pixieDustCount; c++) {
 		if (starv[c]) update_star(c);
 		if (tinyv[c]) update_tiny(c);
 	}
-	setTimeout("sparkle()", 40);
+	setTimeout("pixieDust()", 40);
 }
 
 function update_star(i) {
