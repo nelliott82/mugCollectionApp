@@ -38,6 +38,10 @@
   padding: 0rem 1rem 1rem;
 }
 
+#uSure {
+  padding: 0rem 1rem 1rem;
+}
+
 .mugFront {
   grid-area: front;
 }

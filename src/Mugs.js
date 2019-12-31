@@ -73,13 +73,15 @@ class Mugs extends React.Component {
           <p>{this.props.image.description}</p>
           <Button onClick={youSure_open} content="Select Mug" />
           <div id="uSureLight">
-            <h2>Are you sure?</h2>
-            <button type="button" onClick={lightbox_open}>
-              Yes
-            </button>
-            <button type="button" onClick={youSure_close}>
-              No
-            </button>
+            <div id="uSure">
+              <h2>Are you sure?</h2>
+              <button type="button" onClick={lightbox_open}>
+                Yes
+              </button>
+              <button type="button" onClick={youSure_close}>
+                No
+              </button>
+            </div>
           </div>
           <div id="uSureFade" />
           <div id="vidLight">
