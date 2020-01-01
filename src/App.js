@@ -20,6 +20,9 @@ import cafeMinnie from './video/cafeMinnie.mp4';
 import croissantDeTriompheMug from './img/croissantDeTriompheMug.jpeg';
 import croissantDeTriompheMugBack from './img/croissantDeTriompheMugBack.jpeg';
 import croissantDeTriomphe from './video/croissantDeTriomphe.mp4';
+import ratatouilleMug from './img/ratatouilleMug.jpeg';
+import ratatouilleMugBack from './img/ratatouilleMugBack.jpeg';
+import ratatouilleVid from './video/ratatouilleVid.mp4';
 import Slide from './Slide.js';
 import './App.css';
 
@@ -75,6 +78,14 @@ export default class App extends React.Component {
           title: 'Mickey Scooter Mug',
           description:
             "In the Mickey Mouse short 'Croissant De Triomphe,' Mickey attempts to save the day by delivering croissants to Cafe Minnie using his trusty anthropomorphic scooter!",
+        },
+        {
+          frontImage: ratatouilleMug,
+          backImage: ratatouilleMugBack,
+          video: ratatouilleVid,
+          title: 'Ratatouille Mug',
+          description:
+            "'Ratatouille' is the finest film Pixar has ever produced. The story of a rat who loves to cook and finds himself able to control a human by pulling his hair and hiding in his toque in order to work successfully in a Paris restaurant. Crazy when described. Beautiful and touching when executed by director Brad Bird.",
         },
       ]
     };
