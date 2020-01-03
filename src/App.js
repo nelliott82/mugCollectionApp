@@ -22,7 +22,7 @@ import croissantDeTriompheMugBack from './img/croissantDeTriompheMugBack.jpeg';
 import croissantDeTriomphe from './video/croissantDeTriomphe.mp4';
 import ratatouilleMug from './img/ratatouilleMug.jpeg';
 import ratatouilleMugBack from './img/ratatouilleMugBack.jpeg';
-import ratatouilleVid from './video/ratatouilleVid.mp4';
+import ratatouille from './video/ratatouilleVid.mp4';
 import Slide from './Slide.js';
 import './App.css';
 
@@ -82,7 +82,7 @@ export default class App extends React.Component {
         {
           frontImage: ratatouilleMug,
           backImage: ratatouilleMugBack,
-          video: ratatouilleVid,
+          video: ratatouille,
           title: 'Ratatouille Mug',
           description:
             "'Ratatouille' is the finest film Pixar has ever produced. The story of a rat who loves to cook and finds himself able to control a human by pulling his hair and hiding in his toque in order to work successfully in a Paris restaurant. Crazy when described. Beautiful and touching when executed by director Brad Bird.",
