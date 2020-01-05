@@ -22,9 +22,9 @@ import croissantDeTriompheMugBack from './img/croissantDeTriompheMugBack.jpeg';
 import croissantDeTriomphe from './video/croissantDeTriomphe.mp4';
 import ratatouilleMug from './img/ratatouilleMug.jpeg';
 import ratatouilleMugBack from './img/ratatouilleMugBack.jpeg';
-import ratatouille from './video/ratatouilleVid.mp4';
-import Slide from './Slide.js';
-import './App.css';
+import ratatouille from './video/ratatouilleVid.mp4'
+import Slide from './Slide.js'
+import './App.css'
 
 export default class App extends React.Component {
   constructor(props) {
