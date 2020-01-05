@@ -23,12 +23,14 @@
   color: black;
   display: grid;
   grid-template-areas:
-  'front back'
+  'front back';
+  border-radius: 5%;
 }
 
 .mugImage {
   width: 200px;
   height: 200px;
+  border-radius: 5%;
 }
 
 .descriptionContainer {
@@ -132,7 +134,7 @@
   background: #FFF;
   z-index: 1004;
   overflow: visible;
-  border-radius: 5%
+  border-radius: 10%
 }
 
 /* Slide CSS */
@@ -204,4 +206,19 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+
+.dot.selected {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dotsContainer {
+  width: 100%
 }

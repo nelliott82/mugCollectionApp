@@ -13,7 +13,7 @@ function mugLightbox_open() {
   document.getElementById('mugFade').style.display = 'block';
 }
 
-const Slide = ({ frontImage, image }) => {
+const Slide = ({ frontImage, mug }) => {
   const backgroundImage = frontImage;
   const styles = {
     backgroundImage: `url(${backgroundImage})`,
@@ -27,7 +27,7 @@ const Slide = ({ frontImage, image }) => {
     <div className="slide" style={styles} onClick={mugLightbox_open}>
     </div>
       <div id="mugLight">
-        <Mugs image={image} />
+        <Mugs mug={mug} />
       </div>
       <div id="mugFade" onClick={mugLightbox_close}></div>
     </div>

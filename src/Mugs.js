@@ -4,10 +4,6 @@ import './App.css';
 
 function lightbox_close() {
   var lightBoxVideo = document.getElementById('videoElem');
-  // document.getElementById('mugFade').onclick = function() {
-  //   document.getElementById('mugLight').style.display = 'none';
-  //   document.getElementById('mugFade').style.display = 'none';
-  // };
   document.getElementById('mugLight').style.display = 'none';
   document.getElementById('mugFade').style.display = 'none';
   document.getElementById('vidLight').style.display = 'none';
@@ -27,16 +23,11 @@ function lightbox_open() {
 }
 
 function youSure_close() {
-  // document.getElementById('mugFade').onclick = function() {
-  //   document.getElementById('mugLight').style.display = 'none';
-  //   document.getElementById('mugFade').style.display = 'none';
-  // };
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
 }
 
 function youSure_open() {
-  // document.getElementById('mugFade').removeAttribute('onclick')
   document.getElementById('uSureLight').style.display = 'block';
   document.getElementById('uSureFade').style.display = 'block';
 }
@@ -50,11 +41,11 @@ class Mugs extends React.Component {
   render() {
     return (
       <div>
-        <h3 style={{ color: 'black' }}>{this.props.image.title}</h3>
+        <h3 style={{ color: 'black' }}>{this.props.mug.title}</h3>
         <div className="mugImages">
           <div className="mugFront">
             <img
-              src={this.props.image.frontImage}
+              src={this.props.mug.frontImage}
               className="mugImage"
               alt="logo"
             />
@@ -62,7 +53,7 @@ class Mugs extends React.Component {
           </div>
           <div className="mugBack">
             <img
-              src={this.props.image.backImage}
+              src={this.props.mug.backImage}
               className="mugImage"
               alt="logo"
             />
@@ -70,7 +61,7 @@ class Mugs extends React.Component {
           </div>
         </div>
         <div className="descriptionContainer">
-          <p>{this.props.image.description}</p>
+          <p>{this.props.mug.description}</p>
           <Button onClick={youSure_open} content="Select Mug" />
           <div id="uSureLight">
             <div id="uSure">
@@ -89,8 +80,7 @@ class Mugs extends React.Component {
               height={400}
               width={700}
               id="videoElem"
-              src={this.props.image.video}
-              controls
+              src={this.props.mug.video}
             />
           </div>
           <div id="vidFade"></div>
