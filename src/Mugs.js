@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'semantic-ui-react';
 import './App.css';
 
 function lightbox_close() {
@@ -15,7 +14,6 @@ function lightbox_open() {
   var lightBoxVideo = document.getElementById('videoElem');
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
-  window.scrollTo(0, 0);
   document.getElementById('vidLight').style.display = 'block';
   document.getElementById('vidFade').style.display = 'block';
   lightBoxVideo.addEventListener('ended', lightbox_close, false);
@@ -62,7 +60,7 @@ class Mugs extends React.Component {
         </div>
         <div className="descriptionContainer">
           <p>{this.props.mug.description}</p>
-          <Button onClick={youSure_open} content="Select Mug" />
+          <button type="button" onClick={youSure_open}>Select Mug</button>
           <div id="uSureLight">
             <div id="uSure">
               <h2>Are you sure?</h2>
