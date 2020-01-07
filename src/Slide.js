@@ -6,6 +6,8 @@ function mugLightbox_close() {
   document.getElementById('mugFade').style.display = 'none';
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
+  document.getElementById('vidLight').style.display = 'none';
+  document.getElementById('vidFade').style.display = 'none';
 }
 
 function mugLightbox_open() {
