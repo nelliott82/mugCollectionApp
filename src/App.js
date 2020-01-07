@@ -24,6 +24,12 @@ import croissantDeTriomphe from './video/croissantDeTriomphe.mp4';
 import ratatouilleMug from './img/ratatouilleMug.jpeg';
 import ratatouilleMugBack from './img/ratatouilleMugBack.jpeg';
 import ratatouille from './video/ratatouilleVid.mp4';
+import animalKingdomMug from './img/animalKingdomMug.jpeg';
+import animalKingdomMugBack from './img/animalKingdomMugBack.jpeg';
+import animalKingdom from './video/animalKingdomVid.mp4';
+import mrIncredibleMug from './img/mrIncredibleMug.jpg';
+import mrIncredibleMugBack from './img/mrIncredibleMugBack.jpeg';
+import mrIncredible from './video/mrIncredibleVid.mp4';
 import Slide from './Slide.js';
 import './App.css';
 
@@ -95,6 +101,24 @@ export default class App extends React.Component {
           title: 'Ratatouille Mug',
           description:
             "'Ratatouille' is the finest film Pixar has ever produced. The story of a rat who loves to cook and finds himself able to control a human by pulling his hair and hiding in his toque in order to work successfully in a Paris restaurant. Crazy when described. Beautiful and touching when executed by director Brad Bird.",
+        },
+        {
+          index: 7,
+          frontImage: animalKingdomMug,
+          backImage: animalKingdomMugBack,
+          video: animalKingdom,
+          title: 'Animal Kingdom "Tree of Life" Mug',
+          description:
+            "Disney's Animal Kingdom park opened in 1998. As its name suggests, it focuses on animals from around the world, whether they be alive, extinct, or imagined. Animal Kingdom park is many things, but it's 'not a zoo.'",
+        },
+        {
+          index: 8,
+          frontImage: mrIncredibleMug,
+          backImage: mrIncredibleMugBack,
+          video: mrIncredible,
+          title: 'Mr. Incredible Mug',
+          description:
+            "Mr. Incredible is the patriarch of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing. Can he return to his former glory without messing up his current life?",
         },
       ],
     };
