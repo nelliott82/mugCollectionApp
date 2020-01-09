@@ -148,10 +148,10 @@ export default class App extends React.Component {
     return (
       <div className="slider-arrows">
         <div className="arrow left" onClick={() => this.slideLeft()}>
-          <img className="arrowLeft" src={mickeyArrowLeft} alt="arrow" />
+          <img className="arrowContainer" src={mickeyArrowLeft} alt="arrow" />
         </div>
         <div className="arrow right" onClick={() => this.slideRight()}>
-          <img className="arrowRight" src={mickeyArrowRight} alt="arrow" />
+          <img className="arrowContainer" src={mickeyArrowRight} alt="arrow" />
         </div>
       </div>
     );
