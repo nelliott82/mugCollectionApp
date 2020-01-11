@@ -4,6 +4,7 @@ import Mugs from './Mugs.js';
 function mugLightbox_close() {
   document.getElementById('mugLight').style.display = 'none';
   document.getElementById('mugFade').style.display = 'none';
+  document.getElementById('mugFadeNoClick').style.display = 'none';
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
   document.getElementById('vidLight').style.display = 'none';
@@ -32,6 +33,7 @@ const Slide = ({ frontImage, mug }) => {
         <Mugs mug={mug} />
       </div>
       <div id="mugFade" onClick={mugLightbox_close}></div>
+      <div id="mugFadeNoClick" ></div>
     </div>
   );
 };

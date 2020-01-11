@@ -4,7 +4,7 @@ import './App.css';
 function lightbox_close() {
   var lightBoxVideo = document.getElementById('videoElem');
   document.getElementById('mugLight').style.display = 'none';
-  document.getElementById('mugFade').style.display = 'none';
+  document.getElementById('mugFadeNoClick').style.display = 'none';
   document.getElementById('vidLight').style.display = 'none';
   document.getElementById('vidFade').style.display = 'none';
   lightBoxVideo.pause();
@@ -14,7 +14,7 @@ function lightbox_open() {
   var lightBoxVideo = document.getElementById('videoElem');
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
-  document.getElementById('vidLight').style.display = 'block';
+  document.getElementById('vidLight').style.display = 'inline-block';
   document.getElementById('vidFade').style.display = 'block';
   lightBoxVideo.addEventListener('ended', lightbox_close, false);
   lightBoxVideo.play();
@@ -23,11 +23,15 @@ function lightbox_open() {
 function youSure_close() {
   document.getElementById('uSureLight').style.display = 'none';
   document.getElementById('uSureFade').style.display = 'none';
+  document.getElementById('mugFadeNoClick').style.display = 'none';
+  document.getElementById('mugFade').style.display = 'block';
 }
 
 function youSure_open() {
   document.getElementById('uSureLight').style.display = 'block';
   document.getElementById('uSureFade').style.display = 'block';
+  document.getElementById('mugFade').style.display = 'none';
+  document.getElementById('mugFadeNoClick').style.display = 'block';
 }
 
 class Mugs extends React.Component {
