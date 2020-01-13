@@ -35,6 +35,10 @@ function youSure_open() {
 }
 
 class Mugs extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
   render() {
     return (
