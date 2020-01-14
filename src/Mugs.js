@@ -34,20 +34,15 @@ function youSure_open() {
   document.getElementById('mugFadeNoClick').style.display = 'block';
 }
 
-class Mugs extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
+const Mugs = ({ mug }) => {
+    const { title, frontImage, backImage, description, video } = mug
     return (
       <div>
-        <h3 style={{ color: 'black' }}>{this.props.mug.title}</h3>
+        <h3 style={{ color: 'black' }}>{title}</h3>
         <div className="mugImages">
           <div className="mugFront">
             <img
-              src={this.props.mug.frontImage}
+              src={frontImage}
               className="mugImage"
               alt="logo"
             />
@@ -55,7 +50,7 @@ class Mugs extends React.Component {
           </div>
           <div className="mugBack">
             <img
-              src={this.props.mug.backImage}
+              src={backImage}
               className="mugImage"
               alt="logo"
             />
@@ -63,7 +58,7 @@ class Mugs extends React.Component {
           </div>
         </div>
         <div className="descriptionContainer">
-          <p>{this.props.mug.description}</p>
+          <p>{description}</p>
           <button type="button" onClick={youSure_open}>Select Mug</button>
           <div id="uSureLight">
             <div id="uSure">
@@ -82,14 +77,13 @@ class Mugs extends React.Component {
               height={400}
               width={700}
               id="videoElem"
-              src={this.props.mug.video}
+              src={video}
             />
           </div>
           <div id="vidFade"></div>
         </div>
       </div>
     );
-  }
 }
 
 export default Mugs;
