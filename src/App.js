@@ -30,6 +30,9 @@ import animalKingdom from './video/animalKingdomVid.mp4';
 import mrIncredibleMug from './img/mrIncredibleMug.jpg';
 import mrIncredibleMugBack from './img/mrIncredibleMugBack.jpeg';
 import mrIncredible from './video/mrIncredibleVid.mp4';
+import aladdinMug from './img/aladdinMug.jpeg';
+import aladdinMugBack from './img/aladdinMugBack.jpeg';
+import aladdin from './video/aladdinVid.mp4';
 import Slide from './Slide.js';
 import './App.css';
 
@@ -119,6 +122,15 @@ export default class App extends React.Component {
           title: 'Mr. Incredible Mug',
           description:
             "Mr. Incredible is the patriarch of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing. Can he return to his former glory without messing up his current life?",
+        },
+        {
+          index: 9,
+          frontImage: aladdinMug,
+          backImage: aladdinMugBack,
+          video: aladdin,
+          title: 'Aladdin Disney Wisdom Mug',
+          description:
+            "The Disney Wisdom mug series showcases the various nuggets of wisdom extolled in its various movies. 'Aladdin' teaches the valuable lesson that our exteriors are not as important as what or who we are inside.",
         },
       ],
     };
