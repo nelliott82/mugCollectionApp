@@ -128,7 +128,7 @@ export default class App extends React.Component {
           frontImage: aladdinMug,
           backImage: aladdinMugBack,
           video: aladdin,
-          title: 'Aladdin Disney Wisdom Mug',
+          title: "'Aladdin' Disney Wisdom Mug",
           description:
             "The Disney Wisdom mug series showcases the various nuggets of wisdom extolled in its various movies. 'Aladdin' teaches the valuable lesson that our exteriors are not as important as what or who we are inside.",
         },
