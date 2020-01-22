@@ -215,6 +215,11 @@
   transition: background-color 0.8s ease;
 }
 
+.dot:hover {
+  background-color: rgb(99, 99, 99);
+  transition: background-color 0.3s ease;
+}
+
 .dot.selected {
   cursor: pointer;
   height: 15px;
