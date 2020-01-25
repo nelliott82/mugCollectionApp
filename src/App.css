@@ -206,8 +206,8 @@
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 16px;
+  width: 16px;
   margin: 0 4px;
   background-color: #bbb;
   border-radius: 50%;
@@ -222,8 +222,8 @@
 
 .dot.selected {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 16px;
+  width: 16px;
   margin: 0 4px;
   background-color: rgb(99, 99, 99);
   border-radius: 50%;
