@@ -28,7 +28,9 @@ import mrIncredible from './video/mrIncredibleVid.mp4';
 import aladdinMug from './img/aladdinMug.jpeg';
 import aladdinMugBack from './img/aladdinMugBack.jpeg';
 import aladdin from './video/aladdinVid.mp4';
-import './App.css';
+import cocoMug from './img/cocoMug.jpeg';
+import cocoMugBack from './img/cocoMugBack.jpg';
+import coco from './video/cocoVid.mp4';
 
 const mugs = [
         {
@@ -120,6 +122,15 @@ const mugs = [
           title: "'Aladdin' Disney Wisdom Mug",
           description:
             "The Disney Wisdom mug series showcases the various nuggets of wisdom extolled in its various movies. 'Aladdin' teaches the valuable lesson that our exteriors are not as important as what or who we are inside.",
+        },
+        {
+          index: 10,
+          frontImage: cocoMug,
+          backImage: cocoMugBack,
+          video: coco,
+          title: "'Coco' Sugar Skull Mug",
+          description:
+            "Pixar's 'Coco' follows a young, Mexican boy, Miguel, who longs to be a musician against his family's wishes. One Dia de Muertos, Miguel finds himself mysteriously in the Land of the Dead and must get his deceased family's permission to return, but also promise to give up music.",
         },
       ]
 
