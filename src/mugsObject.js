@@ -112,7 +112,7 @@ const mugs = [
           video: mrIncredible,
           title: 'Mr. Incredible Mug',
           description:
-            "Mr. Incredible is the patriarch of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing. Can he return to his former glory without messing up his current life?",
+            "Mr. Incredible is the husband/father of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing. Can he return to his former glory without messing up his current life?",
         },
         {
           index: 9,
@@ -130,7 +130,7 @@ const mugs = [
           video: coco,
           title: "'Coco' Sugar Skull Mug",
           description:
-            "Pixar's 'Coco' follows a young, Mexican boy, Miguel, who longs to be a musician against his family's wishes. One Dia de Muertos, Miguel finds himself mysteriously in the Land of the Dead and must get his deceased family's permission to return, but also promise to give up music.",
+            "'Coco' follows a young, Mexican boy, Miguel, who longs to be a musician against his family's wishes. One fateful Dia de Muertos, Miguel finds himself mysteriously in the Land of the Dead and must get his deceased family's permission to return, but also promise to give up music.",
         },
       ]
 
