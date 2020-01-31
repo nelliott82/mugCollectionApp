@@ -94,7 +94,7 @@ const mugs = [
           video: ratatouille,
           title: 'Ratatouille Mug',
           description:
-            "'Ratatouille' is the finest film Pixar has ever produced. The story of a rat who loves to cook and finds himself able to control a human by pulling his hair and hiding in his toque in order to work successfully in a Paris restaurant. Crazy when described. Beautiful and touching when executed by director Brad Bird.",
+            "'Ratatouille' is the finest film Pixar has ever produced. The story of a rat who loves to cook and finds himself able to control a human by pulling his hair and hiding in his toque in order to work successfully in a Paris restaurant.",
         },
         {
           index: 7,
@@ -112,7 +112,7 @@ const mugs = [
           video: mrIncredible,
           title: 'Mr. Incredible Mug',
           description:
-            "Mr. Incredible is the husband/father of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing. Can he return to his former glory without messing up his current life?",
+            "Mr. Incredible is the husband/father of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing.",
         },
         {
           index: 9,
