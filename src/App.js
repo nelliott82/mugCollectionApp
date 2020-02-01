@@ -13,7 +13,6 @@ export default class App extends React.Component {
     this.state = {
       dotIndex: 0,
       mugs: mugs,
-      button: true
     };
   }
 
