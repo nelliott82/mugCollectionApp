@@ -12,7 +12,8 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       dotIndex: 0,
-      mugs: mugs
+      mugs: mugs,
+      button: true
     };
   }
 
