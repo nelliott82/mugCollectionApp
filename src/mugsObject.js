@@ -46,6 +46,12 @@ import tinkerbell from './video/tinkerbellVid.mp4';
 import mickeyMouseMug from './img/mickeyMouseMug.jpeg';
 import mickeyMouseMugBack from './img/mickeyMouseMugBack.jpeg';
 import mickeyMouse from './video/mickeyMouseVid.mp4';
+import snowWhiteMug from './img/snowWhiteMug.jpeg';
+import snowWhiteMugBack from './img/snowWhiteMugBack.jpeg';
+import snowWhite from './video/snowWhiteVid.mp4';
+import pixarMug from './img/pixarMug.jpg';
+import pixarMugBack from './img/pixarMugBack.jpg';
+import pixar from './video/pixarVid.mp4';
 
 const mugs = [
         {
@@ -191,6 +197,24 @@ const mugs = [
           title: "Mickey Mouse Mug",
           description:
             "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney. What Disney mug collection would be complete without a mug dedicated to Mickey Mouse in general?",
+        },
+        {
+          index: 16,
+          frontImage: snowWhiteMug,
+          backImage: snowWhiteMugBack,
+          video: snowWhite,
+          title: "'Snow White and the Seven Dwarfs' Mug",
+          description:
+            "Disney may have started with a mouse, but the feature-length animated film started with 'Snow White and the Seven Dwarfs' in 1937. Critically acclaimed and wildly commercially successful, it changed the movie landscape forever.",
+        },
+        {
+          index: 17,
+          frontImage: pixarMug,
+          backImage: pixarMugBack,
+          video: pixar,
+          title: "Pixar Mug",
+          description:
+            "Disney pioneered 2D animation and Pixar pioneered 3D animation. Now owned entirely by Disney, Pixar has produced some of the most successful and iconic animated films of the modern era, starting with its first short 'Luxo Jr.' in 1986.",
         },
       ]
 
