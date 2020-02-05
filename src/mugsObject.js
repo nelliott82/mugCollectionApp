@@ -34,6 +34,15 @@ import coco from './video/cocoVid.mp4';
 import figmentMug from './img/figmentMug.jpeg';
 import figmentMugBack from './img/figmentMugBack.jpeg';
 import figment from './video/figmentVid.mp4';
+import aliceMadTeaMug from './img/aliceMadTeaMug.jpg';
+import aliceMadTeaMugBack from './img/aliceMadTeaMugBack.jpg';
+import aliceMadTea from './video/aliceMadTeaVid.mp4';
+import aliceMadTeaMug2 from './img/aliceMadTeaMug2.jpeg';
+import aliceMadTeaMugBack2 from './img/aliceMadTeaMugBack2.jpeg';
+import aliceMadTea2 from './video/aliceMadTeaVid2.mp4';
+import tinkerbellMug from './img/tinkerbellMug.jpeg';
+import tinkerbellMugBack from './img/tinkerbellMugBack.jpeg';
+import tinkerbell from './video/tinkerbellVid.mp4';
 
 const mugs = [
         {
@@ -143,6 +152,33 @@ const mugs = [
           title: "Figment Mug",
           description:
             "Figment is the unofficial mascot of Epcot at large and the official mascot of its Imagination pavilion. First appearing in the ride 'Journey Into Imagination' in 1983, he quickly became a guest favorite and though the ride has changed names and design, Figment has endured.",
+        },
+        {
+          index: 12,
+          frontImage: aliceMadTeaMug,
+          backImage: aliceMadTeaMugBack,
+          video: aliceMadTea,
+          title: "'Alice in Wonderland' Mug",
+          description:
+            "Based on Lewis Carroll's novel 'Alice's Adventures in Wonderland', Disney's 'Alice in Wonderland' debuted in 1951. Initially met with a lukewarm response, it has since been embraced for its 'mad' plot and antics paired with colorful and energetic imagery.",
+        },
+        {
+          index: 13,
+          frontImage: aliceMadTeaMug2,
+          backImage: aliceMadTeaMugBack2,
+          video: aliceMadTea2,
+          title: "'Alice in Wonderland' Mug",
+          description:
+            "What's this!? Two 'Alice in Wonderland' mugs in the same collection!? Is there even room? It seems rude to only have one for the rest and two for 'Alice in Wonderland'! Very very rude indeed!",
+        },
+        {
+          index: 14,
+          frontImage: tinkerbellMug,
+          backImage: tinkerbellMugBack,
+          video: tinkerbell,
+          title: "Tinkerbell Mug",
+          description:
+            "Strong, tempermental, jealous, and beautiful, Tinkerbell is Peter Pan's sidekick and friend. Her pixie dust provides part of the magic required to fly and she has become a symbol of the magic that is Disney at large.",
         },
       ]
 
