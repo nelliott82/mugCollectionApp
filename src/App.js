@@ -90,7 +90,7 @@ export default class App extends React.Component {
           <p style={{ width: '63%' }}>
             Browse through the mugs below and click on one to learn more about
             it. Once you've decided which mug you want to use, click "Select
-            Mug" and then enjoy your mug!
+            Mug" and enjoy!
           </p>
           <div className="slider">
             {this.renderNavigation()}
