@@ -31,6 +31,9 @@ import aladdin from './video/aladdinVid.mp4';
 import cocoMug from './img/cocoMug.jpeg';
 import cocoMugBack from './img/cocoMugBack.jpg';
 import coco from './video/cocoVid.mp4';
+import figmentMug from './img/figmentMug.jpeg';
+import figmentMugBack from './img/figmentMugBack.jpeg';
+import figment from './video/figmentVid.mp4';
 
 const mugs = [
         {
@@ -131,6 +134,15 @@ const mugs = [
           title: "'Coco' Sugar Skull Mug",
           description:
             "'Coco' follows a young, Mexican boy, Miguel, who longs to be a musician against his family's wishes. One fateful Dia de Muertos, Miguel finds himself mysteriously in the Land of the Dead and must get his deceased family's permission to return, but also promise to give up music.",
+        },
+        {
+          index: 11,
+          frontImage: figmentMug,
+          backImage: figmentMugBack,
+          video: figment,
+          title: "Figment Mug",
+          description:
+            "Figment is the unofficial mascot of Epcot at large and the official mascot of its Imagination pavilion. First appearing in the ride 'Journey Into Imagination' in 1983, he quickly became a guest favorite and though the ride has changed names and design, Figment remains relatively the same.",
         },
       ]
 
