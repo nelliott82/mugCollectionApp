@@ -142,7 +142,7 @@ const mugs = [
           video: figment,
           title: "Figment Mug",
           description:
-            "Figment is the unofficial mascot of Epcot at large and the official mascot of its Imagination pavilion. First appearing in the ride 'Journey Into Imagination' in 1983, he quickly became a guest favorite and though the ride has changed names and design, Figment remains relatively the same.",
+            "Figment is the unofficial mascot of Epcot at large and the official mascot of its Imagination pavilion. First appearing in the ride 'Journey Into Imagination' in 1983, he quickly became a guest favorite and though the ride has changed names and design, Figment has endured.",
         },
       ]
 

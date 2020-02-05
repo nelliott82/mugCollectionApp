@@ -67,6 +67,7 @@ export default class App extends React.Component {
         <br />
         <div className="dotsContainer">
         {mugs.map((mug, index) => {
+          if (index !== Math.floor(mugs.length / 2)){
           return (
             <span
               key={index}
@@ -75,7 +76,19 @@ export default class App extends React.Component {
               })}
               onClick={() => this.dotSelection(index)}
             />
-          );
+          )} else {
+            return (
+              <>
+              <br /> <span
+                key={index}
+                className={className('dot', {
+                  selected: this.state.dotIndex === index,
+                })}
+                onClick={() => this.dotSelection(index)}
+              />
+              </>
+            )
+          };
         })}
       </div>
       </>
