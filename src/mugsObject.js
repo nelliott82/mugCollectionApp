@@ -43,6 +43,9 @@ import aliceMadTea2 from './video/aliceMadTeaVid2.mp4';
 import tinkerbellMug from './img/tinkerbellMug.jpeg';
 import tinkerbellMugBack from './img/tinkerbellMugBack.jpeg';
 import tinkerbell from './video/tinkerbellVid.mp4';
+import mickeyMouseMug from './img/mickeyMouseMug.jpeg';
+import mickeyMouseMugBack from './img/mickeyMouseMugBack.jpeg';
+import mickeyMouse from './video/mickeyMouseVid.mp4';
 
 const mugs = [
         {
@@ -178,7 +181,16 @@ const mugs = [
           video: tinkerbell,
           title: "Tinkerbell Mug",
           description:
-            "Strong, tempermental, jealous, and beautiful, Tinkerbell is Peter Pan's sidekick and friend. Her pixie dust provides part of the magic required to fly and she has become a symbol of the magic that is Disney at large.",
+            "Strong, tempermental, jealous, and beautiful, Tinkerbell is Peter Pan's sidekick and friend. Her pixie dust provides part of the magic required to fly and she has become a symbol of the magic that is Disney.",
+        },
+        {
+          index: 15,
+          frontImage: mickeyMouseMug,
+          backImage: mickeyMouseMugBack,
+          video: mickeyMouse,
+          title: "Mickey Mouse Mug",
+          description:
+            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney. What Disney mug collection would be complete without a mug dedicated to Mickey Mouse in general?",
         },
       ]
 
