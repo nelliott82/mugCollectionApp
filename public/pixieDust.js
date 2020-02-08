@@ -1,5 +1,5 @@
-var colour="gold"; // "random" can be replaced with any valid colour ie: "red"...
-var pixieDustCount=1000;// increase of decrease for number of pixieDustCount falling
+var colour="gold";
+var pixieDustCount=1000;
 
 var x=ox=400;
 var y=oy=300;
@@ -119,7 +119,6 @@ function pixieDust() {
 		ox=x;
 		oy=y;
 		for (c=0; c<pixieDustCount; c++) if (!starv[c]) {
-			// star[c].style.boxShadow="0 0 10px white"
 			star[c].style.left=(starx[c]=x)+"px";
 			star[c].style.top=(stary[c]=y+1)+"px";
 			star[c].style.clip="rect(0px, 5px, 5px, 0px)";
