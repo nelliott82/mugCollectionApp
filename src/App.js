@@ -5,7 +5,7 @@ import mickeyArrowRight from './img/mickeyArrowRight.jpg';
 import mickeyArrowLeft from './img/mickeyArrowLeft.jpg';
 import mugs from './mugsObject.js';
 import Slide from './Slide.js';
-import './App.css';
+import './App.css'
 
 export default class App extends React.Component {
   constructor(props) {
