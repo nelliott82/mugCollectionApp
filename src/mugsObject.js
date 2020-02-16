@@ -196,7 +196,7 @@ const mugs = [
           video: mickeyMouse,
           title: "Mickey Mouse Mug",
           description:
-            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney. What Disney mug collection would be complete without a mug dedicated to Mickey Mouse in general?",
+            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
         },
         {
           index: 16,
