@@ -63,10 +63,10 @@ const Mugs = ({ mug }) => {
           <div id="uSureLight">
             <div id="uSure">
               <h2>Are you sure?</h2>
-              <button type="button" onClick={lightbox_open}>
+              <button type="button" className="sureButton" onClick={lightbox_open}>
                 Yes
               </button>
-              <button type="button" onClick={youSure_close}>
+              <button type="button" className="sureButton" onClick={youSure_close}>
                 No
               </button>
             </div>

@@ -44,6 +44,10 @@
   padding: 0rem 1rem 1rem;
 }
 
+.sureButton {
+  margin: 0rem 1rem 0rem;
+}
+
 .mugFront {
   grid-area: front;
 }
