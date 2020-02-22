@@ -100,6 +100,15 @@ const mugs = [
             "In the Mickey Mouse short 'Croissant De Triomphe,' Minnie runs Cafe Minnie in Paris, France. Everything is 'tres bien' until Minnie discovers one morning she has no croissants for her customers.",
         },
         {
+          index: 15,
+          frontImage: mickeyMouseMug,
+          backImage: mickeyMouseMugBack,
+          video: mickeyMouse,
+          title: "Mickey Mouse Mug",
+          description:
+            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
+        },
+        {
           index: 5,
           frontImage: croissantDeTriompheMug,
           backImage: croissantDeTriompheMugBack,
@@ -188,15 +197,6 @@ const mugs = [
           title: "Tinkerbell Mug",
           description:
             "Strong, tempermental, jealous, and beautiful, Tinkerbell is Peter Pan's sidekick and friend. Her pixie dust provides part of the magic required to fly and she has become a symbol of the magic that is Disney.",
-        },
-        {
-          index: 15,
-          frontImage: mickeyMouseMug,
-          backImage: mickeyMouseMugBack,
-          video: mickeyMouse,
-          title: "Mickey Mouse Mug",
-          description:
-            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
         },
         {
           index: 16,
