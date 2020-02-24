@@ -136,7 +136,7 @@ const mugs = [
             "Mr. Incredible is the husband/father of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing.",
         },
         {
-          index: 15,
+          index: 9,
           frontImage: mickeyMouseMug,
           backImage: mickeyMouseMugBack,
           video: mickeyMouse,
@@ -145,7 +145,7 @@ const mugs = [
             "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
         },
         {
-          index: 9,
+          index: 10,
           frontImage: aladdinMug,
           backImage: aladdinMugBack,
           video: aladdin,
@@ -154,7 +154,7 @@ const mugs = [
             "The Disney Wisdom mug series showcases the various nuggets of wisdom extolled in its various movies. 'Aladdin' teaches the valuable lesson that our exteriors are not as important as what or who we are inside.",
         },
         {
-          index: 10,
+          index: 11,
           frontImage: cocoMug,
           backImage: cocoMugBack,
           video: coco,
@@ -163,7 +163,7 @@ const mugs = [
             "'Coco' follows a young, Mexican boy, Miguel, who longs to be a musician against his family's wishes. One fateful Dia de Muertos, Miguel finds himself mysteriously in the Land of the Dead and must get his deceased family's permission to return, but also promise to give up music.",
         },
         {
-          index: 11,
+          index: 12,
           frontImage: figmentMug,
           backImage: figmentMugBack,
           video: figment,
@@ -172,7 +172,7 @@ const mugs = [
             "Figment is the unofficial mascot of Epcot at large and the official mascot of its Imagination pavilion. First appearing in the ride 'Journey Into Imagination' in 1983, he quickly became a guest favorite and though the ride has changed names and design, Figment has endured.",
         },
         {
-          index: 12,
+          index: 13,
           frontImage: aliceMadTeaMug,
           backImage: aliceMadTeaMugBack,
           video: aliceMadTea,
@@ -181,7 +181,7 @@ const mugs = [
             "Based on Lewis Carroll's novel 'Alice's Adventures in Wonderland', Disney's 'Alice in Wonderland' debuted in 1951. Initially met with a lukewarm response, it has since been embraced for its 'mad' plot and antics paired with colorful and energetic imagery.",
         },
         {
-          index: 13,
+          index: 14,
           frontImage: aliceMadTeaMug2,
           backImage: aliceMadTeaMugBack2,
           video: aliceMadTea2,
@@ -190,7 +190,7 @@ const mugs = [
             "What's this!? Two 'Alice in Wonderland' mugs in the same collection!? Is there even room? It seems rude to only have one for the rest and two for 'Alice in Wonderland'! Very very rude indeed!",
         },
         {
-          index: 14,
+          index: 15,
           frontImage: tinkerbellMug,
           backImage: tinkerbellMugBack,
           video: tinkerbell,
