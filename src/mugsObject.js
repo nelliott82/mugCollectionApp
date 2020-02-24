@@ -100,22 +100,13 @@ const mugs = [
             "In the Mickey Mouse short 'Croissant De Triomphe,' Minnie runs Cafe Minnie in Paris, France. Everything is 'tres bien' until Minnie discovers one morning she has no croissants for her customers.",
         },
         {
-          index: 15,
-          frontImage: mickeyMouseMug,
-          backImage: mickeyMouseMugBack,
-          video: mickeyMouse,
-          title: "Mickey Mouse Mug",
-          description:
-            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
-        },
-        {
           index: 5,
           frontImage: croissantDeTriompheMug,
           backImage: croissantDeTriompheMugBack,
           video: croissantDeTriomphe,
           title: 'Mickey Scooter Mug',
           description:
-            "In the Mickey Mouse short 'Croissant De Triomphe,' Mickey attempts to save the day by delivering croissants to Cafe Minnie using his trusty anthropomorphic scooter!",
+            "In the Mickey Mouse short 'Croissant De Triomphe,' Mickey attempts to save the day by delivering croissants to Cafe Minnie using his trusty, anthropomorphic scooter!",
         },
         {
           index: 6,
@@ -143,6 +134,15 @@ const mugs = [
           title: 'Mr. Incredible Mug',
           description:
             "Mr. Incredible is the husband/father of the Incredible family. A 'Golden-age Superman' type superhero, he is forced into retirement to live a 'normal' life, but eventually finds the call to be superhero again too enticing.",
+        },
+        {
+          index: 15,
+          frontImage: mickeyMouseMug,
+          backImage: mickeyMouseMugBack,
+          video: mickeyMouse,
+          title: "Mickey Mouse Mug",
+          description:
+            "'I hope we never lose sight of one thing - that it was all started by a mouse.' - Walt Disney.",
         },
         {
           index: 9,
