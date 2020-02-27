@@ -66,6 +66,7 @@ const Mugs = ({ mug }) => {
               <button type="button" className="sureButton" onClick={lightbox_open}>
                 Yes
               </button>
+              {/* <div onClick={lightbox_open} >Yes</div> */}
               <button type="button" className="sureButton" onClick={youSure_close}>
                 No
               </button>
