@@ -70,6 +70,7 @@ const Mugs = ({ mug }) => {
               <button type="button" className="sureButton" onClick={youSure_close}>
                 No
               </button>
+              {/*<div onClick={youSure_close} >No</div> */}
             </div>
           </div>
           <div id="uSureFade" />
