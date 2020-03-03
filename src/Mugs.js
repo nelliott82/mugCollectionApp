@@ -66,11 +66,11 @@ const Mugs = ({ mug }) => {
               <button type="button" className="sureButton" onClick={lightbox_open}>
                 Yes
               </button>
-              {/* <div onClick={lightbox_open} >Yes</div> */}
+              {/* <div height="8px" onClick={lightbox_open} >Yes</div> */}
               <button type="button" className="sureButton" onClick={youSure_close}>
                 No
               </button>
-              {/*<div onClick={youSure_close} >No</div> */}
+              {/*<div height="8px" onClick={youSure_close} >No</div> */}
             </div>
           </div>
           <div id="uSureFade" />
