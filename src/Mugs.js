@@ -62,7 +62,7 @@ const Mugs = ({ mug }) => {
           <button type="button" onClick={youSure_open}>Select Mug</button>
           <div id="uSureLight">
             <div id="uSure">
-              <h2>Are you sure?</h2>
+              <h2>Are you sure??</h2>
               <button type="button" className="sureButton" onClick={lightbox_open}>
                 Yes
               </button>
